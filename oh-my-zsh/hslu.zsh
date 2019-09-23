@@ -25,3 +25,10 @@ function wdl4g() {
     jupyter notebook &
   fi
 }
+
+function wkbds() {
+  if [ -d /Users/tluscre1/Documents/Studium.Local/KBDS/hslu-kbds-exercises ]; then
+    cd /Users/tluscre1/Documents/Studium.Local/KBDS/hslu-kbds-exercises
+    source activate kbds
+  fi
+}
