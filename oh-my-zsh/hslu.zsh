@@ -32,3 +32,11 @@ function wkbds() {
     source activate kbds
   fi
 }
+
+function wimath() {
+  if [ -d /Users/tluscre1/Documents/Studium.Local/IMATH/hslu-imath-exercises ]; then
+    cd /Users/tluscre1/Documents/Studium.Local/IMATH/hslu-imath-exercises
+    source activate imath
+    jupyter notebook &
+  fi
+}
