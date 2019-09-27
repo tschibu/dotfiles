@@ -22,7 +22,15 @@ function wdl4g() {
   if [ -d /Users/tluscre1/Documents/Studium.Local/DL4G/repo ]; then
     cd /Users/tluscre1/Documents/Studium.Local/DL4G/repo
     source activate dl4g
-    jupyter notebook &
+    while true; do
+      vared -p "Do you wish to start PyCharm.app? [y|n] " -c yn
+      case $yn in
+        [Yy]* ) charm . ; break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer yes or no.";;
+       esac
+    done
+    # jupyter notebook &
   fi
 }
 
@@ -36,6 +44,7 @@ function wkbds() {
 function wimath() {
   if [ -d /Users/tluscre1/Documents/Studium.Local/IMATH/hslu-imath-exercises ]; then
     cd /Users/tluscre1/Documents/Studium.Local/IMATH/hslu-imath-exercises
+    OCTAVE_EXECUTABLE=`which octave-cli`
     source activate imath
     jupyter notebook &
   fi
