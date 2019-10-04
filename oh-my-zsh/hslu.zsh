@@ -38,6 +38,7 @@ function wkbds() {
   if [ -d /Users/tluscre1/Documents/Studium.Local/KBDS/hslu-kbds-exercises ]; then
     cd /Users/tluscre1/Documents/Studium.Local/KBDS/hslu-kbds-exercises
     source activate kbds
+    export NLTK_DATA=~/Documents/Studium.Local/KBDS/nltk_data
   fi
 }
 
