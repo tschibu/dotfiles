@@ -27,3 +27,12 @@ ln -s ~/dotfiles/oh-my-zsh/private.zsh  ~/.oh-my-zsh/custom/private.zsh
 ln -s ~/dotfiles/oh-my-zsh/swissscom.zsh ~/.oh-my-zsh/custom/swisscom.zsh
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
 ```
+
+**Adding global .gitignore file**
+```bash
+ln -s ~/dotfiles/git/gitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
+# check
+git config --get core.excludesfile
+```
