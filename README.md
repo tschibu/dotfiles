@@ -24,7 +24,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -s ~/dotfiles/oh-my-zsh/hslu.zsh  ~/.oh-my-zsh/custom/hslu.zsh
 ln -s ~/dotfiles/oh-my-zsh/private.zsh  ~/.oh-my-zsh/custom/private.zsh
-ln -s ~/dotfiles/oh-my-zsh/swissscom.zsh ~/.oh-my-zsh/custom/swisscom.zsh
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
 ```
 
