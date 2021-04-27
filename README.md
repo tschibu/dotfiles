@@ -25,6 +25,7 @@ ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -s ~/dotfiles/oh-my-zsh/hslu.zsh  ~/.oh-my-zsh/custom/hslu.zsh
 ln -s ~/dotfiles/oh-my-zsh/private.zsh  ~/.oh-my-zsh/custom/private.zsh
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
+ln -s ~/dotfiles/vimrc ~/.vimrc
 ```
 
 **Adding global .gitignore file**
