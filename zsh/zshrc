@@ -131,6 +131,7 @@ export EDITOR='vim'
 
 #alias python=/usr/local/bin/python3
 #alias pip=/usr/local/bin/pip3
+alias kubectl="minikube kubectl --"
 
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
