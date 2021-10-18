@@ -35,3 +35,9 @@ git config --global core.excludesfile ~/.gitignore_global
 # check
 git config --get core.excludesfile
 ```
+
+# Visual Studio Code - Install extensions
+
+```bash
+./install_vs_code_extensions.sh
+```
