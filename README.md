@@ -4,6 +4,13 @@
 ~/.*
 ```
 
+**Install brew:**
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+* The script explains what it will do and then pauses before it does it. --> Read it!
+
 **Install zsh:**
 
 ```bash
@@ -21,7 +28,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 **Link config files:**
 
 ```bash
-ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+rm -f ~/.zshrc && ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -s ~/dotfiles/oh-my-zsh/private.zsh  ~/.oh-my-zsh/custom/private.zsh
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
 ln -s ~/dotfiles/vimrc ~/.vimrc
@@ -38,6 +45,8 @@ git config --get core.excludesfile
 
 # Visual Studio Code - Install extensions
 
+* Check if `Visual Studio Code` is installed as `cli` is installed with `code -v`.
+
 ```bash
-./install_vs_code_extensions.sh
+cd ~/dotfiles/ && ./install_vs_code_extensions.sh
 ```
