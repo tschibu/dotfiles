@@ -142,3 +142,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # jEnv - Manage your Java environment
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# GOPATH environment variable specifies the location
+export GOPATH=$HOME/Developer/go
+export PATH=$PATH:$(go env GOPATH)/bin
