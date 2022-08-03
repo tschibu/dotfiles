@@ -81,6 +81,9 @@ plugins=(
   git
   vi-mode
 
+  # kubernetes
+  kubectl
+
   # coding
   python
   # virtualenv
