@@ -32,6 +32,7 @@ rm -f ~/.zshrc && ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -s ~/dotfiles/oh-my-zsh/private.zsh  ~/.oh-my-zsh/custom/private.zsh
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
 ln -s ~/dotfiles/vimrc ~/.vimrc
+ln -s ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/assets/complex_modifications
 ```
 
 **Adding global .gitignore file**
