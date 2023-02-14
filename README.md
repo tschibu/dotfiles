@@ -58,3 +58,12 @@ Copy password direct to clipboard
 ```bash
 cat ~/.mytextfile | tr -d '\n' | pbcopy
 ```
+
+# Karabiner-Elements Settings
+
+System Preferences > Security & Privacy > Accessibility
+
+Add the following apps/binaries to the list and toggel it on:
+* Script Editor
+* karabiner_console_user_server
+* osascript (Hint `which osascript` -> /usr/bin/osascript)
