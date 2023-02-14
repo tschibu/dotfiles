@@ -51,3 +51,10 @@ git config --get core.excludesfile
 ```bash
 cd ~/dotfiles/ && ./install_vs_code_extensions.sh
 ```
+
+# Text to clipboard handling
+
+Copy password direct to clipboard
+```bash
+cat ~/.mytextfile | tr -d '\n' | pbcopy
+```
