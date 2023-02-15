@@ -38,10 +38,12 @@ ln -s ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/asse
 **Adding global .gitignore file**
 ```bash
 ln -s ~/dotfiles/git/gitignore_global ~/.gitignore_global
-git config --global core.excludesfile ~/.gitignore_global
+ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 
 # check
 git config --get core.excludesfile
+git config --get user.name
+git config --get user.email
 ```
 
 # Visual Studio Code - Install extensions
