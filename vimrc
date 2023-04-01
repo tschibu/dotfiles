@@ -22,7 +22,7 @@ set laststatus=2 statusline=%f\ %m\ %{&fileencoding?&fileencoding:&encoding}
 
 
 " yaml
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab autoindent
 
 " TODO: fix it `echo has('conceal')`
 let g:indentLine_char = '⦙'
