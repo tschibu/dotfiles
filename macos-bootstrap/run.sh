@@ -80,6 +80,7 @@ brew-install kubeseal
 brew-install kustomize
 brew-install lua
 brew-install minikube
+brew-install nativefier
 brew-install nmap
 brew-install skopeo
 brew-install tmux
