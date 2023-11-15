@@ -90,7 +90,6 @@ brew-install wget
 brew-install yamllint
 brew-install yq
 brew-install zsh
-brew-install zsh-syntax-highlighting
 
 # programming languages and frameworks
 brew-install go
@@ -99,20 +98,19 @@ brew-install go
 # brew-cask-install <formula>
 #
 brew-cask-install appcleaner
+brew-cask-install apache-directory-studio
 brew-cask-install boop
 brew-cask-install chromedriver
 brew-cask-install chromium
-brew-cask-install coconutbattery
+# brew-cask-install coconutbattery
 brew-cask-install daisydisk
 brew-cask-install discord
-brew-cask-install dropbox
 brew-cask-install firefox
 brew-cask-install google-earth-pro
 brew-cask-install istat-menus
 brew-cask-install iterm2
 brew-cask-install itsycal
 brew-cask-install jabra-direct
-brew-cask-install jdownloader
 brew-cask-install karabiner-elements
 brew-cask-install keepassxc
 brew-cask-install keystore-explorer
@@ -128,7 +126,6 @@ brew-cask-install snagit
 brew-cask-install sonos
 brew-cask-install teamviewer
 brew-cask-install telegram
-brew-cask-install textsniper
 brew-cask-install the-unarchiver
 brew-cask-install threema
 brew-cask-install tuxera-ntfs
