@@ -75,6 +75,7 @@ brew-install argocd
 brew-install dos2unix
 brew-install helm
 brew-install htop
+brew-install jenv
 brew-install jq
 brew-install kubeseal
 brew-install kustomize
