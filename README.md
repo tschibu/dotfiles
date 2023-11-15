@@ -29,7 +29,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 
 ```bash
 rm -f ~/.zshrc && ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
-ln -s ~/dotfiles/oh-my-zsh/private.zsh  ~/.oh-my-zsh/custom/private.zsh
+ln -s ~/dotfiles/oh-my-zsh/private.zsh ~/.oh-my-zsh/custom/private.zsh
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
 ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/assets/complex_modifications
@@ -42,8 +42,11 @@ ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 
 # check
 git config --get core.excludesfile
+#   Output: git config --get core.excludesfile
 git config --get user.name
+#   Output: tschibu
 git config --get user.email
+#   Output: tschibu@gmail.com
 ```
 
 # Visual Studio Code - Install extensions
