@@ -75,7 +75,9 @@ plugins=(
 
   # look & feel
   # zsh-syntax-highlighting
+  zsh-completions
   zsh-autosuggestions
+  zsh-syntax-highlighting
 
   # tools
   git
@@ -103,6 +105,9 @@ PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(virtualenv_prompt_info) $(git_prompt_info)'
 
 # User configuration
+
+# load zsh-completions
+autoload -U compinit && compinit
 
 # font color for tmux sessions
 export TERM=xterm-256color
