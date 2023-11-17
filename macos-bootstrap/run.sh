@@ -108,6 +108,7 @@ brew-cask-install chromium
 brew-cask-install daisydisk
 brew-cask-install discord
 brew-cask-install firefox
+# brew-cask-install brave-browser # optionally
 brew-cask-install google-earth-pro
 brew-cask-install iterm2
 brew-cask-install itsycal
