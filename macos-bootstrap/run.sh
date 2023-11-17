@@ -99,8 +99,9 @@ brew-install go
 #
 # brew-cask-install <formula>
 #
-brew-cask-install appcleaner
 brew-cask-install apache-directory-studio
+brew-cask-install appcleaner
+brew-cask-install arc
 brew-cask-install boop
 brew-cask-install chromedriver
 brew-cask-install chromium
