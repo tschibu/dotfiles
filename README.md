@@ -20,8 +20,9 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # oh-my-zsh plugins
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 ```
 
 
@@ -29,7 +30,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 
 ```bash
 rm -f ~/.zshrc && ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
-ln -s ~/dotfiles/oh-my-zsh/private.zsh ~/.oh-my-zsh/custom/private.zsh
+ln -s ~/dotfiles/oh-my-zsh/private.zsh ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/private.zsh
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
 ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/assets/complex_modifications
