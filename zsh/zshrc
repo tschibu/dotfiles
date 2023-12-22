@@ -154,3 +154,6 @@ eval "$(jenv init -)"
 # GOPATH environment variable specifies the location
 export GOPATH=$HOME/Developer/go
 export PATH=$PATH:$(go env GOPATH)/bin
+
+# autoload for compinit
+autoload -U compinit; compinit
