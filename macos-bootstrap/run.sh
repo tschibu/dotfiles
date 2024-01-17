@@ -83,7 +83,9 @@ brew-install kustomize
 brew-install lua
 brew-install minikube
 brew-install nativefier
+brew-install neovim
 brew-install nmap
+brew-install pre-commit
 brew-install skopeo
 brew-install tmux
 brew-install tree
