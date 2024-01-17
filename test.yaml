@@ -1,0 +1,11 @@
+# Networks
+wifi:
+  networks:
+  - ssid: Kaywinnet
+    password: secret wifi_password
+  - ssid: Serenity
+    password: secret serenity_password
+  - ssid: Miranda
+    password: secret miranda_password
+  - ssid: Naboo
+    password: secret naboo_password
