@@ -34,6 +34,8 @@ ln -s ~/dotfiles/oh-my-zsh/private.zsh ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom
 ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
 ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/assets/complex_modifications
+mkdir -p $HOME/.config
+ln -s ~/dotfiles/neovim $HOME/.config/nvim
 ```
 
 **Adding global .gitignore file**
