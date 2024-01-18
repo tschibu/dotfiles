@@ -1,10 +1,32 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.2.0
     hooks:
-    -   id: trailing-whitespace
-    -   id: end-of-file-fixer
-    -   id: check-yaml
-    -   id: check-added-large-files
+    - id: check-added-large-files
+    - id: check-case-conflict
+    - id: check-executables-have-shebangs
+    - id: check-symlinks
+    - id: check-yaml
+    - id: end-of-file-fixer
+    # - id: fix-byte-order-marker
+    - id: mixed-line-ending
+    - id: trailing-whitespace
+
+  - repo: 'https://github.com/Lucas-C/pre-commit-hooks'
+    rev: v1.5.4
+    hooks:
+    - id: forbid-crlf
+    - id: forbid-tabs
+    - id: remove-crlf
+    - id: remove-tabs
+      args:
+        - '--whitespaces-count'
+        - '2'
+
+# Python coding
+  - repo: 'https://github.com/psf/black'
+    rev: 23.12.1
+    hooks:
+      - id: black
