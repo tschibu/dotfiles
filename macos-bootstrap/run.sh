@@ -73,6 +73,7 @@ export HOMEBREW_NO_INSTALL_CLEANUP=1
 brew-install ansible
 brew-install argocd
 brew-install dos2unix
+brew-install ffmpeg
 brew-install glab
 brew-install helm
 brew-install htop
