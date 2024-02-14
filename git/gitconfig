@@ -1,6 +1,13 @@
 [core]
     excludesfile = ~/.gitignore_global
     autocrlf = input
+
 [user]
     name = tschibu
     email = tschibu@gmail.com
+
+[includeIf "gitdir:~/Developer/"]
+    path = ~/dotfiles/git/gitconfig-private
+
+[includeIf "gitdir:~/Developer/swisscom/"]
+    path = ~/dotfiles//git/gitconfig-swisscom
