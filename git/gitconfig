@@ -2,6 +2,9 @@
     excludesfile = ~/.gitignore_global
     autocrlf = input
 
+[format]
+    pretty = oneline
+
 [user]
     email = tschibu@gmail.com
     name = tschibu
