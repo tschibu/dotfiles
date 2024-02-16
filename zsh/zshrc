@@ -157,3 +157,6 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 # autoload for compinit
 autoload -U compinit; compinit
+
+# XDG Base Directory Specification
+export XDG_CONFIG_HOME="$HOME/.config"
