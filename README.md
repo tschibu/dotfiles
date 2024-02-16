@@ -36,6 +36,7 @@ ln -sf ~/dotfiles/vimrc ~/.vimrc
 ln -sf ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/assets/complex_modifications
 mkdir -p $HOME/.config
 ln -sf ~/dotfiles/neovim $HOME/.config/nvim
+ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf
 ```
 
 **Adding global .gitignore file**
