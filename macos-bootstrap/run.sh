@@ -146,6 +146,6 @@ brew-cask-install zoom
 brew tap GoogleContainerTools/kpt https://github.com/GoogleContainerTools/kpt.git
 brew-install kpt
 
-# font
-brew tap homebrew/cask-fonts
-brew install --cask font-ubuntu-nerd-font
+# nerd font
+# brew tap homebrew/cask-fonts
+# brew install --cask font-ubuntu-nerd-font
