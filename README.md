@@ -29,13 +29,13 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.o
 **Link config files:**
 
 ```bash
-rm -f ~/.zshrc && ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
-ln -s ~/dotfiles/oh-my-zsh/private.zsh ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/private.zsh
-ln -s ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
-ln -s ~/dotfiles/vimrc ~/.vimrc
-ln -s ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/assets/complex_modifications
+rm -f ~/.zshrc && ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
+ln -sf ~/dotfiles/oh-my-zsh/private.zsh ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/private.zsh
+ln -sf ~/dotfiles/pip/pip.conf ~/.pip/pip.conf
+ln -sf ~/dotfiles/vimrc ~/.vimrc
+ln -sf ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/assets/complex_modifications
 mkdir -p $HOME/.config
-ln -s ~/dotfiles/neovim $HOME/.config/nvim
+ln -sf ~/dotfiles/neovim $HOME/.config/nvim
 ```
 
 **Adding global .gitignore file**
