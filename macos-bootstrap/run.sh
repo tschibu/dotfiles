@@ -88,6 +88,8 @@ brew-install neovim
 brew-install nmap
 brew-install pre-commit
 brew-install skopeo
+brew-install telnet
+brew-install tldr
 brew-install tmux
 brew-install tree
 brew-install vim
@@ -127,6 +129,7 @@ brew-cask-install openvpn-connect
 brew-cask-install pdf-expert
 brew-cask-install postman
 brew-cask-install rar
+brew-cask-install raycast
 brew-cask-install signal
 brew-cask-install slack
 brew-cask-install snagit
