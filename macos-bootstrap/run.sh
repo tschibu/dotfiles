@@ -74,6 +74,7 @@ brew-install ansible
 brew-install argocd
 brew-install dos2unix
 brew-install ffmpeg
+brew-install git
 brew-install glab
 brew-install helm
 brew-install htop
