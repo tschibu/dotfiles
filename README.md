@@ -37,6 +37,7 @@ ln -sf ~/dotfiles/karabiner/assets/complex_modifications ~/.config/karabiner/ass
 mkdir -p $HOME/.config
 ln -sf ~/dotfiles/neovim $HOME/.config/nvim
 ln -sf ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/vscode/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
 ```
 
 **Adding global .gitignore file**
