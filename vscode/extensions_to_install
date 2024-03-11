@@ -9,12 +9,13 @@ ivory-lab.jenkinsfile-support
 karlito40.fix-irregular-whitespace
 mechatroner.rainbow-csv
 ms-azuretools.vscode-docker
+ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode.hexeditor
 oderwat.indent-rainbow
 redhat.vscode-commons
 redhat.vscode-yaml
-ScooterSoftware.bcompare-vscode
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-german
 vscode-icons-team.vscode-icons
