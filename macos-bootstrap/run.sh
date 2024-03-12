@@ -72,6 +72,7 @@ export HOMEBREW_NO_INSTALL_CLEANUP=1
 # tools (cli tools)
 brew-install ansible
 brew-install argocd
+brew-install derailed/k9s/k9s
 brew-install dos2unix
 brew-install ffmpeg
 brew-install git
