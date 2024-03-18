@@ -88,6 +88,7 @@ brew-install minikube
 brew-install nativefier
 brew-install neovim
 brew-install nmap
+brew-install node
 brew-install openshift-cli
 brew-install pre-commit
 brew-install skopeo
