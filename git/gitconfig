@@ -2,6 +2,9 @@
     excludesfile = ~/.gitignore_global
     autocrlf = input
 
+[pull]
+    rebase = false
+
 [format]
     pretty = oneline
 
