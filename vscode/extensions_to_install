@@ -4,6 +4,8 @@ dzhavat.bracket-pair-toggler
 eamodio.gitlens
 esbenp.prettier-vscode
 fabianlauer.vs-code-xml-format
+github.copilot
+github.copilot-chat
 golang.go
 ivory-lab.jenkinsfile-support
 karlito40.fix-irregular-whitespace
