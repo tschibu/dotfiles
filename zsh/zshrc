@@ -160,3 +160,6 @@ autoload -U compinit; compinit
 
 # XDG Base Directory Specification
 export XDG_CONFIG_HOME="$HOME"/.config
+
+# set proxy variables
+swisscom-proxy-load
