@@ -156,3 +156,7 @@ brew-install kpt
 # nerd font
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
+
+# 🦙 Alpaca Proxy
+brew tap samuong/alpaca
+brew install samuong/alpaca/alpaca
