@@ -84,12 +84,13 @@ brew-install jq
 brew-install kubeseal
 brew-install kustomize
 brew-install lua
-brew-install minikube
+# brew-install minikube
 brew-install nativefier
 brew-install neovim
 brew-install nmap
 brew-install node
 brew-install openshift-cli
+brew-install podman-desktop
 brew-install pre-commit
 brew-install skopeo
 brew-install telnet
