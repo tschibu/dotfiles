@@ -140,8 +140,8 @@ export EDITOR='vim'
 
 #alias python=/usr/local/bin/python3
 #alias pip=/usr/local/bin/pip3
-alias kubectl="minikube kubectl --"
-alias k="minikube kubectl --"
+#alias kubectl="minikube kubectl --"
+#alias k="minikube kubectl --"
 setopt complete_aliases
 
 # zsh-syntax-highlighting
