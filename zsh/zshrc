@@ -163,3 +163,6 @@ export XDG_CONFIG_HOME="$HOME"/.config
 
 # set proxy variables
 swisscom-proxy-load
+
+# The runtime to run kpt functions
+export KPT_FN_RUNTIME=podman
