@@ -90,7 +90,6 @@ brew-install neovim
 brew-install nmap
 brew-install node
 brew-install openshift-cli
-brew-install podman-desktop
 brew-install pre-commit
 brew-install skopeo
 brew-install telnet
@@ -132,6 +131,7 @@ brew-cask-install microsoft-remote-desktop
 brew-cask-install miro
 brew-cask-install openvpn-connect
 brew-cask-install pdf-expert
+brew-cask-install podman-desktop
 brew-cask-install postman
 brew-cask-install rar
 brew-cask-install raycast
@@ -139,6 +139,7 @@ brew-cask-install signal
 brew-cask-install slack
 brew-cask-install snagit
 brew-cask-install sonos
+brew-cask-install spotify
 brew-cask-install teamviewer
 brew-cask-install telegram
 brew-cask-install the-unarchiver
