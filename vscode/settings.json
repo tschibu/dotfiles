@@ -1,6 +1,7 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontFamily": "Hack Nerd Font, Monaco, 'Courier New', monospace",
+    "editor.inlineSuggest.showToolbar": "always",
     "editor.largeFileOptimizations": false,
     "editor.renderControlCharacters": true,
     "editor.suggestSelection": "first",
@@ -9,6 +10,7 @@
     "files.autoSave": "off",
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
+    "github.copilot.editor.enableAutoCompletions": true,
     "gitlens.codeLens.enabled": false,
     "python.languageServer": "Default",
     "terminal.external.osxExec": "iTerm.app",
@@ -20,6 +22,5 @@
     "workbench.colorTheme": "Cobalt2",
     "workbench.editor.empty.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": true
+    "workbench.startupEditor": "newUntitledFile"
 }
