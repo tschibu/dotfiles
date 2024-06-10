@@ -157,7 +157,6 @@ brew tap GoogleContainerTools/kpt https://github.com/GoogleContainerTools/kpt.gi
 brew-install kpt
 
 # nerd font
-brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 
 # 🦙 Alpaca Proxy
