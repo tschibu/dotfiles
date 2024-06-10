@@ -3,6 +3,9 @@
 # personal alias
 alias nas='ssh remo@ds218'
 
+# git handler
+alias lg=lazygit
+
 # editor
 alias v=nvim
 
