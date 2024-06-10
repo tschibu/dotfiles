@@ -162,3 +162,7 @@ brew install --cask font-hack-nerd-font
 # 🦙 Alpaca Proxy
 brew tap samuong/alpaca
 brew install samuong/alpaca/alpaca
+
+# add lazygit
+brew install jesseduffield/lazygit/lazygit
+brew install lazygit
