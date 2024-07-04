@@ -76,6 +76,7 @@ brew-install cloudfoundry/tap/cf-cli@8
 brew-install derailed/k9s/k9s
 brew-install dos2unix
 brew-install ffmpeg
+brew-install gh
 brew-install git
 brew-install glab
 brew-install helm
