@@ -169,3 +169,7 @@ brew install samuong/alpaca/alpaca
 # add lazygit
 brew install jesseduffield/lazygit/lazygit
 brew install lazygit
+
+# add terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
