@@ -151,6 +151,7 @@ brew-cask-install tuxera-ntfs
 brew-cask-install visual-studio-code
 brew-cask-install vlc
 brew-cask-install webex
+brew-cask-install wireshark
 brew-cask-install whatsapp
 brew-cask-install zoom
 
