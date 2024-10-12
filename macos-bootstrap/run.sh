@@ -98,6 +98,7 @@ brew-install telnet
 brew-install tldr
 brew-install tmux
 brew-install tree
+brew-install trivy
 brew-install vim
 brew-install watch
 brew-install wget
