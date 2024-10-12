@@ -101,8 +101,9 @@ ZSH_THEME_VIRTUALENV_PREFIX="("
 ZSH_THEME_VIRTUALENV_SUFFIX=")"
 
 # change prompt
-PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
-PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(virtualenv_prompt_info) $(git_prompt_info)'
+# TODO: Prompt is bricked
+# PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
+# PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(virtualenv_prompt_info) $(git_prompt_info)'
 
 # User configuration
 
