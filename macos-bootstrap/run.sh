@@ -130,7 +130,7 @@ brew-cask-install jabra-direct
 brew-cask-install karabiner-elements
 brew-cask-install keepassxc
 brew-cask-install keystore-explorer
-brew-cask-install microsoft-remote-desktop
+brew-cask-install windows-app
 brew-cask-install miro
 brew-cask-install openvpn-connect
 brew-cask-install pdf-expert
