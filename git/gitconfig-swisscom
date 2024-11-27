@@ -1,3 +1,6 @@
 [user]
   email = Remo.Schwarzentruber@swisscom.com
   name = tluscre1
+
+[url "ssh://git@code.swisscom.com:2222/"]
+    insteadOf = https://code.swisscom.com/
