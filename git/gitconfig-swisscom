@@ -1,6 +1,10 @@
 [user]
-  email = Remo.Schwarzentruber@swisscom.com
+  email = 65-Remo.Schwarzentruber@users.noreply.code.swisscom.com
   name = tluscre1
+  signingkey = 165C498CEF1EAAA3
+
+[commit]
+  gpgsign = true
 
 [url "ssh://git@code.swisscom.com:2222/"]
     insteadOf = https://code.swisscom.com/
