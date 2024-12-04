@@ -16,4 +16,7 @@
     path = ~/dotfiles/git/gitconfig-private
 
 [includeIf "gitdir:~/Developer/swisscom/"]
-    path = ~/dotfiles//git/gitconfig-swisscom
+    path = ~/dotfiles/git/gitconfig-swisscom
+
+[includeIf "gitdir:~/dotfiles-swisscom/"]
+    path = ~/dotfiles/git/gitconfig-swisscom
