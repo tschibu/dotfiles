@@ -92,6 +92,7 @@ brew-install neovim
 brew-install nmap
 brew-install node
 brew-install openshift-cli
+brew-install pinentry-mac
 brew-install pre-commit
 brew-install skopeo
 brew-install telnet
