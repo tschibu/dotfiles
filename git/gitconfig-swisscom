@@ -7,4 +7,4 @@
   gpgsign = true
 
 [url "ssh://git@code.swisscom.com:2222/"]
-    insteadOf = https://code.swisscom.com/
+  insteadOf = https://code.swisscom.com/
