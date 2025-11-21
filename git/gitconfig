@@ -15,6 +15,9 @@
   email = tschibu@gmail.com
   name = tschibu
 
+[url "ssh://git@code.swisscom.com:2222/"]
+  insteadOf = https://code.swisscom.com/
+
 [includeIf "gitdir:~/Developer/"]
   path = ~/dotfiles/git/gitconfig-private
 
